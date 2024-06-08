@@ -1,0 +1,54 @@
+/* main body color and height width */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+/* making 3 cards | 100/3 = 33.3% hight | alternative */
+
+.card1{
+    /* background-color: rgb(255, 255, 87); color for temporory understainding */
+    height: 33.33%;
+    width: 100%;
+    display: flex; /*make display fleax for row wise inner img and text classes */
+
+}
+.card2{
+    height: 33.33%;
+    width: 100%;
+    display: flex;
+}
+.img1{
+    background-color: rgb(212, 212, 212); /*you can cahnge the colors*/
+    height: 100%;
+    width: 30%;
+    padding-right: 10px;
+}
+.text1{
+    background-color: rgb(212, 212, 212);
+    height: 100%;
+    width: 70%;
+    /* if text in center */
+    /* display: flex;
+    justify-content: center ;
+    align-content: center; */
+}
+.card3{
+    height: 33.33%;
+    width: 100%;
+    display: flex;
+}
+.text2{
+    background-color: rgb(172, 172, 172);
+    height: 100%;
+    width: 70%;
+}
+.img2{
+    background-color: rgb(172, 172, 172);
+    height: 100%;
+    width: 30%;
+    padding-left: 10px;
+
+}
